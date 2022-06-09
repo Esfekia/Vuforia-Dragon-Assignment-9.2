@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpacePress : MonoBehaviour
 {
-    public GameObject theNPC;
+    public GameObject theArcher;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +16,8 @@ public class SpacePress : MonoBehaviour
     {
         if (Input.GetButton("SpaceKey"))
         {
-            theNPC.GetComponent<Animator>().Play("Dodge Backward");
-            theNPC.transform.position += new Vector3(-0.004f, 0, 0);
+            theArcher.GetComponent<Animator>().Play("Dodge Backward");
+            //theArcher.transform.position += new Vector3(-0.004f, 0, 0);
         }
     }
 }
