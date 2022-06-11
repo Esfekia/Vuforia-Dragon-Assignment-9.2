@@ -591,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1600996397089100566, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1600996397089100566, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_LocalScale.y
@@ -599,11 +599,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1600996397089100566, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.03
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1600996397089100566, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0281
       objectReference: {fileID: 0}
     - target: {fileID: 1600996397089100566, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -641,6 +641,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2744210505501992605, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3da9fde2df6af634ab2d00961d254390, type: 2}
     - target: {fileID: 4181256446153322973, guid: 98a8c8dafd1597c4fb9c3a764ce206ad, type: 3}
       propertyPath: m_Name
       value: Cube
@@ -748,3 +752,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!328 &2142372566691192073
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909605065}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 3509fbab7994c72438ab9d74bf07a0b3, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 2142372566691192069}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
